@@ -100,10 +100,10 @@
 	"buffers":
 	[
 		{
-			"file": "templates/navbar.html",
+			"file": "lwc2/settings/production.py",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 629,
 				"line_ending": "Unix"
 			}
 		},
@@ -111,7 +111,15 @@
 			"file": "templates/flatty_landing.html",
 			"settings":
 			{
-				"buffer_size": 0,
+				"buffer_size": 13689,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "static/static_dirs/css/flatty.css",
+			"settings":
+			{
+				"buffer_size": 2757,
 				"line_ending": "Unix"
 			}
 		},
@@ -119,23 +127,7 @@
 			"file": "templates/logodesign.html",
 			"settings":
 			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/base.html",
-			"settings":
-			{
-				"buffer_size": 0,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/legal.html",
-			"settings":
-			{
-				"buffer_size": 0,
+				"buffer_size": 5473,
 				"line_ending": "Unix"
 			}
 		}
@@ -164,33 +156,35 @@
 	},
 	"file_history":
 	[
-		"/home/akash/lwc2/src/joins/views.py",
+		"/home/akash/lwc2/src/Procfile",
+		"/home/akash/lwc2/src/lwc2/settings/local.py",
+		"/home/akash/lwc2/src/lwc2/settings_old.py",
+		"/home/akash/lwc2/src/lwc2/settings/__init__.py",
+		"/home/akash/lwc2/src/.gitignore",
 		"/home/akash/lwc2/src/lwc2/urls.py",
-		"/home/akash/lwc2/src/templates/base.html",
-		"/home/akash/lwc2/src/templates/home.html",
+		"/home/akash/lwc2/src/lwc2/settings/production.py",
+		"/home/akash/lwc2/src/lwc2/settings.py",
 		"/home/akash/lwc2/src/templates/flatty_landing.html",
-		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
-		"/home/akash/Downloads/flatty theme/index.html",
 		"/home/akash/lwc2/src/templates/navbar.html",
+		"/home/akash/lwc2/src/templates/logodesign.html",
+		"/home/akash/lwc2/src/lwc2/settings/base.py",
+		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
+		"/home/akash/lwc2/src/templates/legal.html",
+		"/home/akash/lwc2/src/lwc2/wsgi.py",
+		"/home/akash/lwc2/src/templates/base.html",
+		"/home/akash/lwc2/src/joins/views.py",
+		"/home/akash/lwc2/src/templates/home.html",
+		"/home/akash/Downloads/flatty theme/index.html",
 		"/home/akash/lwc2/src/templates/full-slider.html",
 		"/home/akash/lwc2/src/templates/socialintern_landing.html",
 		"/home/akash/lwc2/src/templates/grayscale_landing.html",
-		"/home/akash/lwc2/src/lwc2/settings/base.py",
-		"/home/akash/lwc2/src/lwc2/settings/local.py",
 		"/home/akash/lwc2/src/templates/share.html",
-		"/home/akash/lwc2/src/templates/legal.html",
-		"/home/akash/lwc2/src/lwc2/settings/production.py",
-		"/home/akash/lwc2/src/lwc2/wsgi.py",
 		"/home/akash/lwc2/src/requirements.txt",
-		"/home/akash/lwc2/src/.gitignore",
 		"/home/akash/lwc2/src/templates/500.html",
 		"/home/akash/lwc2/src/templates/404.html",
-		"/home/akash/lwc2/src/Procfile",
-		"/home/akash/lwc2/src/lwc2/settings/__init__.py",
 		"/home/akash/lwc2/src/templates/400.html",
 		"/home/akash/lwc2/src/lwc2/views.py",
 		"/home/akash/lwc2/src/templates/test.html",
-		"/home/akash/lwc2/src/lwc2/settings.py",
 		"/home/akash/lwc2/src/joins/forms.py",
 		"/home/akash/lwc2/src/joins/models.py",
 		"/home/akash/lwc2/src/lwc2/middleware.py",
@@ -259,28 +253,28 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/navbar.html",
+					"file": "lwc2/settings/production.py",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 629,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								56,
+								56
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -293,15 +287,15 @@
 					"file": "templates/flatty_landing.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 13689,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								2472,
+								2472
 							]
 						],
 						"settings":
@@ -316,24 +310,24 @@
 				},
 				{
 					"buffer": 2,
-					"file": "templates/logodesign.html",
+					"file": "static/static_dirs/css/flatty.css",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 2757,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								1794,
+								1794
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"syntax": "Packages/CSS/CSS.tmLanguage",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
@@ -344,56 +338,28 @@
 				},
 				{
 					"buffer": 3,
-					"file": "templates/base.html",
+					"file": "templates/logodesign.html",
 					"settings":
 					{
-						"buffer_size": 0,
+						"buffer_size": 5473,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								3391,
+								3391
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "templates/legal.html",
-					"settings":
-					{
-						"buffer_size": 0,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1055.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
