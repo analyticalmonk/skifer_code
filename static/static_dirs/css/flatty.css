@@ -89,11 +89,11 @@ a:after {
 }
 
 .navbar {
-min-height: 60px;
+min-height: 50px;
 }
 
 .navbar-default {
-	background-color: #a434db;
+	background-color: #34c2db;
 	border-color: white;
 }
 
@@ -127,7 +127,7 @@ i {
 /* HeaderWrap */
 #headerwrap {
 	/* background: url(../img/bg01.jpg) no-repeat center top; */
-	background-color: #a434db;
+	background-color: #34c2db;
 	margin-top: -20px;
 	padding-top:200px;
 	background-attachment: relative;
