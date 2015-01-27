@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{%static './img/favicon.png'%}">
+
+    <title>Skifer</title>
+
+   <!-- Bootstrap core CSS
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link href="{%static './css/bootstrap.min.css' %}" rel="stylesheet">  
+
+    <!-- Custom styles for the Flatty template -->
+    <link href="{%static './css/flatty.css' %}" rel="stylesheet">  
+
+    <!-- Custom styles for this jumbotron template
+    <link href="http://getbootstrap.com/examples/jumbotron/jumbotron.css" rel="stylesheet"> -->
+    <link href="{%static './css/jumbotron.css' %}" rel="stylesheet">
+
+
+  <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href=""><b>SKIFER</b></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <!-- <li><a href="#register">Join the wagon!</a></li> -->
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div class="jumbotron">
+      <div class="container" style = "color:#white; text-align:center">
+        <h2 style = "font-family:Oswald">Legal Disclaimer</h1>
+      	<p style = "font-family:Amaranth">
+          The information contained in this website is for general information purposes only. The information is provided by employers, students and while we endeavor to keep the information up to date and correct, we make no representations or warranties of any kind, express or implied, about the completeness, accuracy, reliability, suitability or availability with respect to the website or the information, products, services, or related graphics contained on the website for any purpose. Any reliance you place on such information is therefore strictly at your own risk. <br>
+
+          We recommend employers to interview and background check candidates before hiring them. We recommend college students to research companies/potential employers before going to a job interview and accepting a job.<br> 
+
+          In no event will we be liable for any loss or damage including without limitation, indirect or consequential loss or damage, or any loss or damage whatsoever arising from loss of data or profits arising out of, or in connection with, the use of this website. <br>
+
+          Through this website you are able to link to other websites which are not under the control of Skifer. We have no control over the nature, content and availability of those sites. The inclusion of any links does not necessarily imply a recommendation or endorse the views expressed within them. <br>
+
+          Every effort is made to keep the website up and running smoothly. However, Skifer takes no responsibility for, and will not be liable for, the website being temporarily unavailable due to technical issues beyond our control.
+        </p>
+      </div>
+    </div>
+
+    <div class="container">
+    <div class = "col-md-4">
+            <h3 style = "font-family: Oswald">Quick Links</h3>
+            <ul style = "font-family: Oswald">
+              <li><a href="/legal">About</a></li>
+              <li><a href="/legal">Legal Disclaimer</a></li>
+            </ul>
+        </div>
+
+        <div class = "col-md-4 pull-right" style = "text-align: right">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/Skifer.in"><i class="fa fa-facebook-square fa-2x" style = "color:#3A5795"></i></a>
+              <!-- Twitter -->
+              <a href=""><i class="fa fa-twitter-square fa-2x" style = "color:#5EA9DD"></i></a>
+              <!-- Google Plus -->
+              <a href=""><i class="fa fa-google-plus-square fa-2x" style = "color:#DD4B39"></i></a>
+              <!-- Linkedin -->
+              <!-- <i class="fa fa-linkedin-square fa-2x" style = "color:#0177B5"></i> -->
+              <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+           </div>
+    </div>
+
+  <div class="container">
+    <hr>
+    <p style = "font-family:Amaranth" class = "centered"><i class="fa fa-copyright"></i><!-- &copy; --> Skifer 2015</p>
+  </div><!-- /container -->
+
+  <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+
+    <!--<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>-->
+    <script src="{%static './js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+{%load staticfiles%}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{%static './img/favicon.png'%}">
+
+    <title>Skifer</title>
+
+   <!-- Bootstrap core CSS
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+
+    <link href="{%static './css/bootstrap.min.css' %}" rel="stylesheet">  
+
+    <!-- Custom styles for the Flatty template -->
+    <link href="{%static './css/flatty.css' %}" rel="stylesheet">  
+
+	<!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./"><img src="{%static './img/skiferlogo.png'%}"/><!-- <b>KIFER</b> --></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+          	<li><a href="#Details">Our purpose</a></li>
+          	<li><a href="#logo">!!Design our logo!!</a></li>
+            <li><a href="#register">Join the wagon!</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+	<div id="headerwrap">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6">
+					<h1>Change your college<br/>
+					 experience forever.</h1>
+					<form class='form-inline' method="POST" action=""> {% csrf_token %}
+				      <div class='form-group'>
+				      {% if form.email.errors %}
+				       {% for err in form.email.errors %}
+				        <!-- <div class="alert alert-warning" role="alert">{{ err }}</div> -->
+				        <div class="alert alert-warning" role="alert">Oops! Something went wrong, try again.</div>
+				      {% endfor %}
+				      {% endif %}
+				       
+				          <div class="input-group">
+				          	<input class='form-control' type="email" name="email" placeholder="Your email..." />
+					           <span class='input-group-btn'>
+					            <input type='submit' value='Join' class='btn btn-warning btn-lg' />
+					           </span>
+				          </div>
+				      </div>
+				    </form>
+
+					<!-- <form class="form-inline" role="form">
+					  <div class="form-group">
+					    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+					  </div>
+					  <button type="submit" class="btn btn-warning btn-lg">Sign me up!</button>
+					</form>	 -->				
+				</div><!-- /col-lg-6 -->
+				<div class="col-lg-6">
+					<img class="img-responsive" src="{%static './img/ipad-hand.png'%}" alt="">
+				</div><!-- /col-lg-6 -->
+				
+			</div><!-- /row -->
+		</div><!-- /container -->
+	</div><!-- /headerwrap -->
+	
+	
+	<div class="container" id = "Details">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h2>"College doesn't prepare you for the real world", they said.<br/>
+					We agree, and we are here to change that. </h2>
+				<!-- <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3> -->
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt centered">
+			<div class="col-lg-4">
+				<img src="{%static './img/ser03.png'%}" width="180" alt="">
+				<h4>1 - We will connect you to real people out there.</h4>
+				<p></p>
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<img src="{%static './img/ser02.png'%}" width="180" alt="">
+				<h4>2 - We are in this for the long run, same as you.</h4>
+				<p></p>
+
+			</div><!--/col-lg-4 -->
+
+			<div class="col-lg-4">
+				<img src="{%static './img/ser03.png'%}" width="180" alt="">
+				<h4>3 - Ee haaaw!</h4>
+				<p></p>
+
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+
+
+	<div class="container" id = "logo">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h2>Tap the designer in you!</h2>
+				<h3>"The key to getting ahead is getting started."</h3>
+			</div>
+		</div><!-- /row -->
+		
+		<div class="row mt centered" style="margin:70px">
+			<div class="col-lg-2">
+
+			</div><!--/col-lg-4 -->
+
+			<div class = "col-lg-8" style = "text-align: center">
+	            <i class="fa fa-paint-brush fa-5x"></i><br><br>
+	            <ul class="fa-ul" style = "font-family: Oswald">
+	              <li><i class="fa-li fa  fa-yelp"></i>We are looking for someone to inspire us,</li>
+	              <li><i class="fa-li fa fa-question"></i>Do you think you have it in you to design for us, the perfect logo?</li>
+	         	  <li><i class="fa-li fa fa-check"></i>If you think so, you are qualified enough.</li>
+	              <li><i class="fa-li fa fa-asterisk"></i>What are you waiting for, give it a 
+	              	<a href = "/logodesign">go!</a></li>
+	            </ul>
+          	</div>
+
+			<div class="col-lg-2">
+
+			</div><!--/col-lg-4 -->
+		</div><!-- /row -->
+	</div><!-- /container -->
+	
+	<div class="container" style="margin:50px">
+		<hr>
+		<div class="row centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form class='form-inline' method="POST" action=""> {% csrf_token %}
+				      <div class='form-group'>
+				      {% if form.email.errors %}
+				       {% for err in form.email.errors %}
+				        <!-- <div class="alert alert-warning" role="alert">{{ err }}</div> -->
+				        <div class="alert alert-warning" role="alert">Oops! Something went wrong, try again.</div>
+				      {% endfor %}
+				      {% endif %}
+				       
+				          <div class="input-group">
+				          	<input class='form-control' type="email" name="email" placeholder="Your email..." />
+					           <span class='input-group-btn'>
+					            <input type='submit' value='Join' class='btn btn-warning btn-lg' />
+					           </span>
+				          </div>
+				      </div>
+				</form>				
+			</div>
+			<div class="col-lg-3"></div>
+		</div><!-- /row -->
+		<hr>
+	</div><!-- /container -->
+	
+	<div class="container">
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>Skifer is for you.</h1>
+				<!-- <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3> -->
+			</div>
+		</div><!-- /row -->
+	
+		<!-- CAROUSEL -->
+		<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+				  <!-- Indicators -->
+				  <ol class="carousel-indicators">
+				    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+				    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+				  </ol>
+				
+				  <!-- Wrapper for slides -->
+				  <div class="carousel-inner">
+				    <div class="item active">
+				      <img src="{%static './img/p01.png'%}" alt="">
+				    </div>
+				    <div class="item">
+				      <img src="{%static './img/p02.png'%}" alt="">
+				    </div>
+				    <div class="item">
+				      <img src="{%static './img/p03.png'%}" alt="">
+				    </div>
+				  </div>
+				</div>			
+			</div><!-- /col-lg-8 -->
+		</div><!-- /row -->
+	</div><!--container -->
+	
+	<div class="container">
+		<hr>
+		<div id ="register" class="row centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form class='form-inline' method="POST" action=""> {% csrf_token %}
+				      <div class='form-group'>
+				      {% if form.email.errors %}
+				       {% for err in form.email.errors %}
+				        <!-- <div class="alert alert-warning" role="alert">{{ err }}</div> -->
+				        <div class="alert alert-warning" role="alert">Oops! Something went wrong, try again.</div>
+				      {% endfor %}
+				      {% endif %}
+				       
+				          <div class="input-group">
+				          	<input class='form-control' type="email" name="email" placeholder="Your email..." />
+					           <span class='input-group-btn'>
+					            <input type='submit' value='Join' class='btn btn-warning btn-lg' />
+					           </span>
+				          </div>
+				      </div>
+				    </form>			
+			</div>
+			<div class="col-lg-3"></div>
+		</div><!-- /row -->
+		<hr>
+	</div><!-- /container -->
+
+	<div class="container">
+		<div class = "col-md-4">
+            <h3 style = "font-family: Oswald">Quick Links</h3>
+            <ul style = "font-family: Oswald">
+              <li><a href="/legal">About</a></li>
+              <li><a href="/legal">Legal Disclaimer</a></li>
+            </ul>
+        </div>
+
+        <div class = "col-md-4 pull-right" style = "text-align: right">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/Skifer.in"><i class="fa fa-facebook-square fa-2x" style = "color:#3A5795"></i></a>
+              <!-- Twitter -->
+              <a href=""><i class="fa fa-twitter-square fa-2x" style = "color:#5EA9DD"></i></a>
+              <!-- Google Plus -->
+              <a href=""><i class="fa fa-google-plus-square fa-2x" style = "color:#DD4B39"></i></a>
+              <!-- Linkedin -->
+              <!-- <i class="fa fa-linkedin-square fa-2x" style = "color:#0177B5"></i> -->
+              <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+           </div>
+    </div>
+
+	<div class="container">
+
+	<!-- 	<div class="row mt centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<h1>Our Awesome Team.<br/>Design Lovers.</h1>
+				<h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+			</div>
+		</div> --><!-- /row -->
+		
+		<!-- <div class="row mt centered">
+			<div class="col-lg-4">
+				<img class="img-circle" src="assets/img/pic1.jpg" width="140" alt="">
+				<h4>Michael Robson</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+			</div> --><!--/col-lg-4 -->
+
+<!-- 			<div class="col-lg-4">
+				<img class="img-circle" src="assets/img/pic2.jpg" width="140" alt="">
+				<h4>Pete Ford</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+			</div> --><!--/col-lg-4 -->
+
+			<!-- <div class="col-lg-4">
+				<img class="img-circle" src="assets/img/pic3.jpg" width="140" alt="">
+				<h4>Angelica Finning</h4>
+				<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+				<p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+			</div> --><!--/col-lg-4 -->
+		<!-- </div> --><!-- /row -->
+	<!-- </div> --><!-- /container -->
+	
+	<!-- <div class="container">
+		<hr>
+		<div class="row centered">
+			<div class="col-lg-6 col-lg-offset-3">
+				<form class="form-inline" role="form">
+				  <div class="form-group">
+				    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+				  </div>
+				  <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+				</form>					
+			</div>
+			<div class="col-lg-3"></div>
+		</div> --><!-- /row -->
+		<hr>
+		<p style = "font-family:Amaranth" class = "centered"><i class="fa fa-copyright"></i><!-- &copy; --> Skifer 2015</p>
+	</div><!-- /container -->
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+
+    <!--<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>-->
+    <script src="{%static './js/bootstrap.min.js' %}"></script>
+  </body>
+</html>

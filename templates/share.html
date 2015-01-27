@@ -1,0 +1,45 @@
+{%extends "base.html"%}
+{%load staticfiles%}
+
+{%block content%}
+	{%include "navbar.html"%}
+
+	<div class="jumbotron">
+      <div class="container" style = "color:#318BA2">
+      	<div class = 'row'>
+        	<div class = "col-md-6 pull-right" style = "text-align: center">
+          		<span class ="fa-stack fa-lg fa-2x">
+                <i class="fa fa-rocket fa-stack-1x"></i>
+                <i class="fa fa-circle-o-notch fa-stack-2x"></i>
+              </span>
+              <h1 style = "font-family:Oswald">Thanks for registering.</h1>
+          		<p style = "font-family:Amaranth">Rest assured, you will not be disappointed.</p>
+              <!-- <div class = "well" style = "text-align: center; background-color:white">
+                {{ref_url}}
+              </div> -->
+              <h3 style = "font-family:Oswald">Share</h3>
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/sharer/sharer.php?u=http://127.0.0.1:8000/?ref=d0b6e1c3a8"><i class="fa fa-facebook-square fa-4x" style = "color:#3A5795"></i></a>
+              <!-- Twitter -->
+              <a href="https://twitter.com/home?status=Hey%20peeps,%20check%20this%20out:%20http://127.0.0.1:8000/?ref=d0b6e1c3a8"><i class="fa fa-twitter-square fa-4x" style = "color:#5EA9DD"></i></a>
+              <!-- Google Plus -->
+              <a href="https://plus.google.com/share?url=%3Ci%20class=%22fa%20fa-twitter-square%20fa-4x%22%20style%20=%20%22color:#5EA9DD%22%3E%3C/i%3E"><i class="fa fa-google-plus-square fa-4x" style = "color:#DD4B39"></i></a>
+              <!-- Linkedin -->
+              <i class="fa fa-linkedin-square fa-4x" style = "color:#0177B5"></i>
+    	      	<!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+           </div>
+
+      		<div class = "col-md-6 pull-left">
+       	 		<img src="{%static './img/theclimb.jpg'%}" class = "img-responsive img-rounded"/>
+      		</div>
+      	</div>
+      </div>
+    </div>
+
+    <!-- <div class = "container">
+    {{ref_id}} <br>
+		{{ref_url}} <br>
+		{{count}}
+    </div> -->
+
+{%endblock%}

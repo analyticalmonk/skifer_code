@@ -1,0 +1,466 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"h",
+				"h3	Tag"
+			],
+			[
+				"o",
+				"ol	Tag"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"marg",
+				"margin-bottom"
+			],
+			[
+				"margin",
+				"margin-top"
+			],
+			[
+				"max",
+				"max-height"
+			],
+			[
+				"ma",
+				"max-width"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"background-",
+				"background-image"
+			],
+			[
+				"nav",
+				"navbar-brand"
+			],
+			[
+				"obj",
+				"objects"
+			],
+			[
+				"ref",
+				"ref_id"
+			],
+			[
+				"admi",
+				"adminJoin"
+			],
+			[
+				"aut",
+				"auto_now"
+			],
+			[
+				"STATIC",
+				"STATIC_ROOT"
+			],
+			[
+				"get",
+				"get_ref_id"
+			],
+			[
+				"new_",
+				"new_join_old"
+			],
+			[
+				"i",
+				"i	Tag"
+			],
+			[
+				"for",
+				"form	Tag"
+			],
+			[
+				"in",
+				"input	Tag"
+			],
+			[
+				"op",
+				"option	Tag"
+			],
+			[
+				"la",
+				"label	Tag"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "templates/navbar.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/flatty_landing.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/logodesign.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/base.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/legal.html",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/akash/lwc2/src/joins/views.py",
+		"/home/akash/lwc2/src/lwc2/urls.py",
+		"/home/akash/lwc2/src/templates/base.html",
+		"/home/akash/lwc2/src/templates/home.html",
+		"/home/akash/lwc2/src/templates/flatty_landing.html",
+		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
+		"/home/akash/Downloads/flatty theme/index.html",
+		"/home/akash/lwc2/src/templates/navbar.html",
+		"/home/akash/lwc2/src/templates/full-slider.html",
+		"/home/akash/lwc2/src/templates/socialintern_landing.html",
+		"/home/akash/lwc2/src/templates/grayscale_landing.html",
+		"/home/akash/lwc2/src/lwc2/settings/base.py",
+		"/home/akash/lwc2/src/lwc2/settings/local.py",
+		"/home/akash/lwc2/src/templates/share.html",
+		"/home/akash/lwc2/src/templates/legal.html",
+		"/home/akash/lwc2/src/lwc2/settings/production.py",
+		"/home/akash/lwc2/src/lwc2/wsgi.py",
+		"/home/akash/lwc2/src/requirements.txt",
+		"/home/akash/lwc2/src/.gitignore",
+		"/home/akash/lwc2/src/templates/500.html",
+		"/home/akash/lwc2/src/templates/404.html",
+		"/home/akash/lwc2/src/Procfile",
+		"/home/akash/lwc2/src/lwc2/settings/__init__.py",
+		"/home/akash/lwc2/src/templates/400.html",
+		"/home/akash/lwc2/src/lwc2/views.py",
+		"/home/akash/lwc2/src/templates/test.html",
+		"/home/akash/lwc2/src/lwc2/settings.py",
+		"/home/akash/lwc2/src/joins/forms.py",
+		"/home/akash/lwc2/src/joins/models.py",
+		"/home/akash/lwc2/src/lwc2/middleware.py",
+		"/home/akash/lwc2/src/joins/admin.py",
+		"/home/akash/lwc2/src/lwc2/templates/share.html",
+		"/home/akash/lwc2/src/lwc2/templates/home.html",
+		"/home/akash/lwc2/src/lwc2/templates/base.html",
+		"/home/akash/lwc2/src/lwc2/templates/navbar.html",
+		"/home/akash/lwc/fm_landing/templates/base.html",
+		"/home/akash/lwc/fm_landing/templates/share.html",
+		"/home/akash/lwc/lwc/templates/home.html",
+		"/home/akash/lwc/lwc/templates/share.html",
+		"/home/akash/lwc/lwc/joins/views.py",
+		"/home/akash/lwc/lwc/lwc/middleware.py",
+		"/home/akash/lwc/lwc/joins/models.py",
+		"/home/akash/lwc/lwc/templates/base.html",
+		"/home/akash/lwc/lwc/lwc/views.py",
+		"/home/akash/lwc/lwc/joins/admin.py",
+		"/home/akash/lwc/lwc/joins/forms.py",
+		"/home/akash/lwc/lwc/lwc/urls.py",
+		"/home/akash/lwc/lwc/lwc/settings.py",
+		"/home/akash/Desktop/fmdesign3.html",
+		"/home/akash/Desktop/fm-design.html",
+		"/home/akash/Desktop/fmdesign2.html",
+		"/home/akash/Desktop/Team-page.html",
+		"/home/akash/bulla.html",
+		"/home/akash/cover.html",
+		"/home/akash/App-Engine/prototype-fm/fmdesign.html"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			">\n",
+			"Faltuminds",
+			"Faltu",
+			"DAYBYDAY JOB",
+			"-example-generic"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Skifer"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 2,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "templates/navbar.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "templates/flatty_landing.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/logodesign.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/base.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/legal.html",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 27.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 213.0,
+	"status_bar_visible": true
+}
