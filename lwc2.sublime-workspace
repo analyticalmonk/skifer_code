@@ -104,26 +104,10 @@
 	"buffers":
 	[
 		{
-			"file": "lwc2/settings/production.py",
-			"settings":
-			{
-				"buffer_size": 629,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/flatty_landing.html",
-			"settings":
-			{
-				"buffer_size": 13689,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "templates/share.html",
 			"settings":
 			{
-				"buffer_size": 8829,
+				"buffer_size": 8905,
 				"line_ending": "Unix"
 			}
 		},
@@ -132,14 +116,6 @@
 			"settings":
 			{
 				"buffer_size": 2757,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/logodesign.html",
-			"settings":
-			{
-				"buffer_size": 5473,
 				"line_ending": "Unix"
 			}
 		},
@@ -192,17 +168,18 @@
 	},
 	"file_history":
 	[
+		"/home/akash/lwc2/src/templates/logodesign.html",
+		"/home/akash/lwc2/src/lwc2/settings/production.py",
+		"/home/akash/lwc2/src/templates/flatty_landing.html",
+		"/home/akash/lwc2/src/static/static_dirs/css/slider.css",
 		"/home/akash/lwc2/src/Procfile",
 		"/home/akash/lwc2/src/lwc2/settings/local.py",
 		"/home/akash/lwc2/src/lwc2/settings_old.py",
 		"/home/akash/lwc2/src/lwc2/settings/__init__.py",
 		"/home/akash/lwc2/src/.gitignore",
 		"/home/akash/lwc2/src/lwc2/urls.py",
-		"/home/akash/lwc2/src/lwc2/settings/production.py",
 		"/home/akash/lwc2/src/lwc2/settings.py",
-		"/home/akash/lwc2/src/templates/flatty_landing.html",
 		"/home/akash/lwc2/src/templates/navbar.html",
-		"/home/akash/lwc2/src/templates/logodesign.html",
 		"/home/akash/lwc2/src/lwc2/settings/base.py",
 		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
 		"/home/akash/lwc2/src/templates/legal.html",
@@ -289,75 +266,23 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lwc2/settings/production.py",
-					"settings":
-					{
-						"buffer_size": 629,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								56,
-								56
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/flatty_landing.html",
-					"settings":
-					{
-						"buffer_size": 13689,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								13689,
-								13689
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 5399.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "templates/share.html",
 					"settings":
 					{
-						"buffer_size": 8829,
+						"buffer_size": 8905,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2413,
-								2413
+								1728,
+								1728
 							]
 						],
 						"settings":
@@ -367,13 +292,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 674.0,
+						"translation.y": 390.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 1,
 					"file": "static/static_dirs/css/flatty.css",
 					"settings":
 					{
@@ -384,8 +309,8 @@
 						"selection":
 						[
 							[
-								281,
-								281
+								1767,
+								1767
 							]
 						],
 						"settings":
@@ -395,41 +320,13 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 57.0,
+						"translation.y": 1256.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 4,
-					"file": "templates/logodesign.html",
-					"settings":
-					{
-						"buffer_size": 5473,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3391,
-								3391
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1072.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
+					"buffer": 2,
 					"file": "lwc2/settings/base.py",
 					"settings":
 					{
@@ -461,7 +358,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 3,
 					"file": "joins/views.py",
 					"settings":
 					{
@@ -488,7 +385,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 7,
+					"buffer": 4,
 					"file": "lwc2/urls.py",
 					"settings":
 					{
