@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"margi",
+				"margin-top"
+			],
+			[
 				"h",
 				"h3	Tag"
 			],
@@ -116,6 +120,14 @@
 			}
 		},
 		{
+			"file": "templates/share.html",
+			"settings":
+			{
+				"buffer_size": 8829,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "static/static_dirs/css/flatty.css",
 			"settings":
 			{
@@ -136,6 +148,22 @@
 			"settings":
 			{
 				"buffer_size": 2416,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "joins/views.py",
+			"settings":
+			{
+				"buffer_size": 2425,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lwc2/urls.py",
+			"settings":
+			{
+				"buffer_size": 496,
 				"line_ending": "Unix"
 			}
 		}
@@ -261,7 +289,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -302,8 +330,8 @@
 						"selection":
 						[
 							[
-								2472,
-								2472
+								13689,
+								13689
 							]
 						],
 						"settings":
@@ -311,13 +339,41 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 4690.0,
+						"translation.y": 5399.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
+					"file": "templates/share.html",
+					"settings":
+					{
+						"buffer_size": 8829,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2413,
+								2413
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 674.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "static/static_dirs/css/flatty.css",
 					"settings":
 					{
@@ -345,7 +401,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "templates/logodesign.html",
 					"settings":
 					{
@@ -373,7 +429,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "lwc2/settings/base.py",
 					"settings":
 					{
@@ -397,6 +453,59 @@
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "joins/views.py",
+					"settings":
+					{
+						"buffer_size": 2425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								323,
+								323
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1101.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "lwc2/urls.py",
+					"settings":
+					{
+						"buffer_size": 496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								169,
+								169
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
