@@ -1,45 +1,188 @@
-{%extends "base.html"%}
+<!DOCTYPE html>
 {%load staticfiles%}
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="{%static './img/favicon.png'%}">
 
-{%block content%}
-	{%include "navbar.html"%}
+    <title>Skifer</title>
 
-	<div class="jumbotron">
-      <div class="container" style = "color:#318BA2">
-      	<div class = 'row'>
-        	<div class = "col-md-6 pull-right" style = "text-align: center">
-          		<span class ="fa-stack fa-lg fa-2x">
-                <i class="fa fa-rocket fa-stack-1x"></i>
-                <i class="fa fa-circle-o-notch fa-stack-2x"></i>
-              </span>
-              <h1 style = "font-family:Oswald">Thanks for registering.</h1>
-          		<p style = "font-family:Amaranth">Rest assured, you will not be disappointed.</p>
-              <!-- <div class = "well" style = "text-align: center; background-color:white">
-                {{ref_url}}
-              </div> -->
-              <h3 style = "font-family:Oswald">Share</h3>
-              <!-- Facebook -->
-              <a href="https://www.facebook.com/sharer/sharer.php?u=http://127.0.0.1:8000/?ref=d0b6e1c3a8"><i class="fa fa-facebook-square fa-4x" style = "color:#3A5795"></i></a>
-              <!-- Twitter -->
-              <a href="https://twitter.com/home?status=Hey%20peeps,%20check%20this%20out:%20http://127.0.0.1:8000/?ref=d0b6e1c3a8"><i class="fa fa-twitter-square fa-4x" style = "color:#5EA9DD"></i></a>
-              <!-- Google Plus -->
-              <a href="https://plus.google.com/share?url=%3Ci%20class=%22fa%20fa-twitter-square%20fa-4x%22%20style%20=%20%22color:#5EA9DD%22%3E%3C/i%3E"><i class="fa fa-google-plus-square fa-4x" style = "color:#DD4B39"></i></a>
-              <!-- Linkedin -->
-              <i class="fa fa-linkedin-square fa-4x" style = "color:#0177B5"></i>
-    	      	<!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
-           </div>
+   <!-- Bootstrap core CSS
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"> -->
 
-      		<div class = "col-md-6 pull-left">
-       	 		<img src="{%static './img/theclimb.jpg'%}" class = "img-responsive img-rounded"/>
-      		</div>
-      	</div>
+    <link href="{%static './css/bootstrap.min.css' %}" rel="stylesheet">  
+
+    <!-- Custom styles for the Flatty template -->
+    <link href="{%static './css/flatty.css' %}" rel="stylesheet">  
+
+  <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+    
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+      .jumbotron {
+        margin-top: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./"><img src="{%static './img/skiferlogo.png'%}"/><!-- <b>KIFER</b> --></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="./#Details" style= "font-family:Signika">Our purpose</a></li>
+            <li><a href="./logodesign" style= "font-family:Signika">!!Design our logo!!</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
       </div>
     </div>
 
-    <!-- <div class = "container">
-    {{ref_id}} <br>
-		{{ref_url}} <br>
-		{{count}}
-    </div> -->
+  	<div class="jumbotron">
+        <div class="container" style = "color:#318BA2">
+        	<div class = 'row'>
+          	<div class = "col-md-6 pull-right" style = "text-align: center">
+            		<span class ="fa-stack fa-lg fa-2x">
+                  <i class="fa fa-rocket fa-stack-1x"></i>
+                  <i class="fa fa-circle-o-notch fa-stack-2x"></i>
+                </span>
+                <h1 style = "font-family:Oswald">Thanks for registering.</h1>
+            		<p style = "font-family:Amaranth">Rest assured, you will not be disappointed.</p>
+                <!-- <div class = "well" style = "text-align: center; background-color:white">
+                  {{ref_url}}
+                </div> -->
+                <h3 style = "font-family:Oswald">Share</h3>
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/sharer/sharer.php?u=http://127.0.0.1:8000/?ref=d0b6e1c3a8"><i class="fa fa-facebook-square fa-4x" style = "color:#3A5795"></i></a>
+                <!-- Twitter -->
+                <a href="https://twitter.com/home?status=Hey%20peeps,%20check%20this%20out:%20http://127.0.0.1:8000/?ref=d0b6e1c3a8"><i class="fa fa-twitter-square fa-4x" style = "color:#5EA9DD"></i></a>
+                <!-- Google Plus -->
+                <a href="https://plus.google.com/share?url=%3Ci%20class=%22fa%20fa-twitter-square%20fa-4x%22%20style%20=%20%22color:#5EA9DD%22%3E%3C/i%3E"><i class="fa fa-google-plus-square fa-4x" style = "color:#DD4B39"></i></a>
+                <!-- Linkedin -->
+                <i class="fa fa-linkedin-square fa-4x" style = "color:#0177B5"></i>
+      	      	<!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+             </div>
 
-{%endblock%}
+        		<div class = "col-md-6 pull-left">
+         	 		<img src="{%static './img/theclimb.jpg'%}" class = "img-responsive img-rounded"/>
+        		</div>
+        	</div>
+        </div>
+      </div>
+
+      <!-- <div class = "container">
+      {{ref_id}} <br>
+  		{{ref_url}} <br>
+  		{{count}}
+      </div> -->
+
+      <div class="container">
+    <div class = "col-md-4">
+            <h3 style = "font-family: Oswald">Quick Links</h3>
+            <ul style = "font-family: Oswald">
+              <li><a href="/legal">About</a></li>
+              <li><a href="/legal">Legal Disclaimer</a></li>
+            </ul>
+        </div>
+
+        <div class = "col-md-4 pull-right" style = "text-align: right">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/Skifer.in"><i class="fa fa-facebook-square fa-2x" style = "color:#3A5795"></i></a>
+              <!-- Twitter -->
+              <a href=""><i class="fa fa-twitter-square fa-2x" style = "color:#5EA9DD"></i></a>
+              <!-- Google Plus -->
+              <a href=""><i class="fa fa-google-plus-square fa-2x" style = "color:#DD4B39"></i></a>
+              <!-- Linkedin -->
+              <!-- <i class="fa fa-linkedin-square fa-2x" style = "color:#0177B5"></i> -->
+              <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+           </div>
+    </div>
+
+  <div class="container">
+
+  <!--  <div class="row mt centered">
+      <div class="col-lg-6 col-lg-offset-3">
+        <h1>Our Awesome Team.<br/>Design Lovers.</h1>
+        <h3>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</h3>
+      </div>
+    </div> --><!-- /row -->
+    
+    <!-- <div class="row mt centered">
+      <div class="col-lg-4">
+        <img class="img-circle" src="assets/img/pic1.jpg" width="140" alt="">
+        <h4>Michael Robson</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+        <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+      </div> --><!--/col-lg-4 -->
+
+<!--      <div class="col-lg-4">
+        <img class="img-circle" src="assets/img/pic2.jpg" width="140" alt="">
+        <h4>Pete Ford</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+        <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+      </div> --><!--/col-lg-4 -->
+
+      <!-- <div class="col-lg-4">
+        <img class="img-circle" src="assets/img/pic3.jpg" width="140" alt="">
+        <h4>Angelica Finning</h4>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever.</p>
+        <p><i class="glyphicon glyphicon-send"></i> <i class="glyphicon glyphicon-phone"></i> <i class="glyphicon glyphicon-globe"></i></p>
+      </div> --><!--/col-lg-4 -->
+    <!-- </div> --><!-- /row -->
+  <!-- </div> --><!-- /container -->
+  
+  <!-- <div class="container">
+    <hr>
+    <div class="row centered">
+      <div class="col-lg-6 col-lg-offset-3">
+        <form class="form-inline" role="form">
+          <div class="form-group">
+            <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter your email address">
+          </div>
+          <button type="submit" class="btn btn-warning btn-lg">Invite Me!</button>
+        </form>         
+      </div>
+      <div class="col-lg-3"></div>
+    </div> --><!-- /row -->
+    <hr>
+    <p style = "font-family:Amaranth" class = "centered"><i class="fa fa-copyright"></i><!-- &copy; --> Skifer 2015</p>
+  </div><!-- /container -->
+  
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    
+
+    <!--<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>-->
+    <script src="{%static './js/bootstrap.min.js' %}"></script>
+  </body>
+</html>
