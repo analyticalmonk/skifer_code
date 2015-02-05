@@ -100,7 +100,7 @@ def home(request):
 			# email.send()
 
 			## Email using EmailMultiAlternatives (text/html)
-			subject, from_email, to = 'Welcome to Skifer', 'Skifer.India@gmail.com', "akashtndn.acm@gmail.com"
+			subject, from_email, to = 'Welcome to Skifer', 'Skifer.India@gmail.com', str(email)
 			text_content = 'Thanks for dropping by and registering. We are currently in a building phase, and are trying our best to make Skifer an awesome experience for you. We will make sure that you are the first to know when we launch. Again, we appreciate your show of faith in us. Regards, Team Skifer'
 			html_content = '<p>Thanks for dropping by and registering. We are currently in a building phase, and are trying our best to make Skifer an awesome experience for you. <br> We will make sure that you are the first to know when we launch. <br> </p> <p>Again, we appreciate your show of faith in us. <br><br> Regards, <br><strong>Team Skifer</strong></p>'
 			msg = EmailMultiAlternatives(subject, text_content, from_email, [to])

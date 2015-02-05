@@ -104,26 +104,18 @@
 	"buffers":
 	[
 		{
-			"file": "templates/share.html",
-			"settings":
-			{
-				"buffer_size": 8908,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "static/static_dirs/css/flatty.css",
-			"settings":
-			{
-				"buffer_size": 2757,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "lwc2/settings/base.py",
 			"settings":
 			{
-				"buffer_size": 2416,
+				"buffer_size": 2644,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lwc2/settings/local.py",
+			"settings":
+			{
+				"buffer_size": 2615,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,23 +123,7 @@
 			"file": "joins/views.py",
 			"settings":
 			{
-				"buffer_size": 2425,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "lwc2/urls.py",
-			"settings":
-			{
-				"buffer_size": 496,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/flatty_landing.html",
-			"settings":
-			{
-				"buffer_size": 13745,
+				"buffer_size": 3613,
 				"line_ending": "Unix"
 			}
 		}
@@ -176,30 +152,30 @@
 	},
 	"file_history":
 	[
+		"/home/akash/lwc2/src/lwc2/settings/local.py",
+		"/home/akash/lwc2/src/templates/legal.html",
+		"/home/akash/lwc2/src/templates/flatty_landing.html",
+		"/home/akash/lwc2/src/joins/views.py",
+		"/home/akash/lwc2/src/lwc2/urls.py",
+		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
+		"/home/akash/lwc2/src/templates/share.html",
 		"/home/akash/lwc2/src/templates/logodesign.html",
 		"/home/akash/lwc2/src/lwc2/settings/production.py",
-		"/home/akash/lwc2/src/templates/flatty_landing.html",
 		"/home/akash/lwc2/src/static/static_dirs/css/slider.css",
 		"/home/akash/lwc2/src/Procfile",
-		"/home/akash/lwc2/src/lwc2/settings/local.py",
 		"/home/akash/lwc2/src/lwc2/settings_old.py",
 		"/home/akash/lwc2/src/lwc2/settings/__init__.py",
 		"/home/akash/lwc2/src/.gitignore",
-		"/home/akash/lwc2/src/lwc2/urls.py",
 		"/home/akash/lwc2/src/lwc2/settings.py",
 		"/home/akash/lwc2/src/templates/navbar.html",
 		"/home/akash/lwc2/src/lwc2/settings/base.py",
-		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
-		"/home/akash/lwc2/src/templates/legal.html",
 		"/home/akash/lwc2/src/lwc2/wsgi.py",
 		"/home/akash/lwc2/src/templates/base.html",
-		"/home/akash/lwc2/src/joins/views.py",
 		"/home/akash/lwc2/src/templates/home.html",
 		"/home/akash/Downloads/flatty theme/index.html",
 		"/home/akash/lwc2/src/templates/full-slider.html",
 		"/home/akash/lwc2/src/templates/socialintern_landing.html",
 		"/home/akash/lwc2/src/templates/grayscale_landing.html",
-		"/home/akash/lwc2/src/templates/share.html",
 		"/home/akash/lwc2/src/requirements.txt",
 		"/home/akash/lwc2/src/templates/500.html",
 		"/home/akash/lwc2/src/templates/404.html",
@@ -274,83 +250,23 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "templates/share.html",
-					"settings":
-					{
-						"buffer_size": 8908,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4894,
-								4894
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1712.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "static/static_dirs/css/flatty.css",
-					"settings":
-					{
-						"buffer_size": 2757,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1767,
-								1767
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/CSS/CSS.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1256.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
 					"file": "lwc2/settings/base.py",
 					"settings":
 					{
-						"buffer_size": 2416,
+						"buffer_size": 2644,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								324,
-								324
-							],
-							[
-								770,
-								770
+								1861,
+								1861
 							]
 						],
 						"settings":
@@ -360,25 +276,53 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1091.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
-					"buffer": 3,
-					"file": "joins/views.py",
+					"buffer": 1,
+					"file": "lwc2/settings/local.py",
 					"settings":
 					{
-						"buffer_size": 2425,
+						"buffer_size": 2615,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								323,
-								323
+								1911,
+								1911
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Python/Python.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 919.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "joins/views.py",
+					"settings":
+					{
+						"buffer_size": 3613,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3143,
+								3143
 							]
 						],
 						"settings":
@@ -386,60 +330,8 @@
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 1101.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "lwc2/urls.py",
-					"settings":
-					{
-						"buffer_size": 496,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								169,
-								169
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "templates/flatty_landing.html",
-					"settings":
-					{
-						"buffer_size": 13745,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								8536,
-								8536
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 3842.0,
+						"translation.x": 2030.0,
+						"translation.y": 1343.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
