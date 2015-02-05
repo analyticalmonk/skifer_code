@@ -6,6 +6,9 @@ from .models import Join
 from .forms import JoinForm
 # from .forms import EmailForm
 
+from django.core.mail import EmailMessage
+from django.core.mail import EmailMultiAlternatives
+
 def get_ip(request):
 	x_forward = request.META.get("HTTP_X_FORWARDED_FOR")
 	try:
@@ -91,6 +94,19 @@ def home(request):
 			new_join_old.ref_id = create_id()
 			new_join_old.ip_address = get_ip(request)
 			new_join_old.save()
+
+			## Email using EmailMessage (plaintext)
+			# email = EmailMessage('Subject', 'Body', to=["akashtndn.acm@gmail.com"])
+			# email.send()
+
+			## Email using EmailMultiAlternatives (text/html)
+			subject, from_email, to = 'Welcome to Skifer', 'Skifer.India@gmail.com', "akashtndn.acm@gmail.com"
+			text_content = 'Thanks for dropping by and registering. We are currently in a building phase, and are trying our best to make Skifer an awesome experience for you. We will make sure that you are the first to know when we launch. Again, we appreciate your show of faith in us. Regards, Team Skifer'
+			html_content = '<p>Thanks for dropping by and registering. We are currently in a building phase, and are trying our best to make Skifer an awesome experience for you. <br> We will make sure that you are the first to know when we launch. <br> </p> <p>Again, we appreciate your show of faith in us. <br><br> Regards, <br><strong>Team Skifer</strong></p>'
+			msg = EmailMultiAlternatives(subject, text_content, from_email, [to])
+			msg.attach_alternative(html_content, "text/html")
+			msg.send()
+
 		# new_join.ip_address = get_ip(request)
 		# new_join.save()
 		return HttpResponseRedirect("/%s" %(new_join_old.ref_id))
