@@ -107,7 +107,7 @@
 			"file": "templates/share.html",
 			"settings":
 			{
-				"buffer_size": 8905,
+				"buffer_size": 8908,
 				"line_ending": "Unix"
 			}
 		},
@@ -140,6 +140,14 @@
 			"settings":
 			{
 				"buffer_size": 496,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/flatty_landing.html",
+			"settings":
+			{
+				"buffer_size": 13745,
 				"line_ending": "Unix"
 			}
 		}
@@ -274,15 +282,15 @@
 					"file": "templates/share.html",
 					"settings":
 					{
-						"buffer_size": 8905,
+						"buffer_size": 8908,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1728,
-								1728
+								4894,
+								4894
 							]
 						],
 						"settings":
@@ -292,7 +300,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 390.0,
+						"translation.y": 1712.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -406,6 +414,32 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/flatty_landing.html",
+					"settings":
+					{
+						"buffer_size": 13745,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8536,
+								8536
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 3842.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
