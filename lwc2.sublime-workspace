@@ -4,12 +4,12 @@
 		"selected_items":
 		[
 			[
-				"margi",
-				"margin-top"
+				"h",
+				"h5	Tag"
 			],
 			[
-				"h",
-				"h3	Tag"
+				"margi",
+				"margin-top"
 			],
 			[
 				"o",
@@ -104,26 +104,18 @@
 	"buffers":
 	[
 		{
-			"file": "lwc2/settings/base.py",
+			"file": "templates/jobs.html",
 			"settings":
 			{
-				"buffer_size": 2644,
-				"line_ending": "Unix"
+				"buffer_size": 10374,
+				"line_ending": "Windows"
 			}
 		},
 		{
-			"file": "lwc2/settings/local.py",
+			"file": "static/static_dirs/css/flatty.css",
 			"settings":
 			{
-				"buffer_size": 2615,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "joins/views.py",
-			"settings":
-			{
-				"buffer_size": 3598,
+				"buffer_size": 2757,
 				"line_ending": "Unix"
 			}
 		}
@@ -152,23 +144,30 @@
 	},
 	"file_history":
 	[
-		"/home/akash/lwc2/src/lwc2/settings/local.py",
 		"/home/akash/lwc2/src/templates/legal.html",
-		"/home/akash/lwc2/src/templates/flatty_landing.html",
+		"/home/akash/lwc2/src/templates/job_board.html",
+		"/home/akash/lwc2/src/static/static_dirs/css/job-board-listing.css",
 		"/home/akash/lwc2/src/joins/views.py",
+		"/home/akash/lwc2/src/static/static_dirs/css/scrolling-background.css",
+		"/home/akash/lwc2/src/templates/logodesign.html",
+		"/home/akash/lwc2/src/lwc2/settings/base.py",
+		"/home/akash/lwc2/src/lwc2/settings/local.py",
 		"/home/akash/lwc2/src/lwc2/urls.py",
+		"/home/akash/lwc2/src/static/static_dirs/css/slider.css",
+		"/home/akash/lwc2/src/joins/forms.py",
+		"/home/akash/lwc2/src/joins/admin.py",
+		"/home/akash/lwc2/src/lwc2/middleware.py",
+		"/home/akash/lwc2/src/joins/models.py",
+		"/home/akash/lwc2/src/templates/flatty_landing.html",
 		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
 		"/home/akash/lwc2/src/templates/share.html",
-		"/home/akash/lwc2/src/templates/logodesign.html",
 		"/home/akash/lwc2/src/lwc2/settings/production.py",
-		"/home/akash/lwc2/src/static/static_dirs/css/slider.css",
 		"/home/akash/lwc2/src/Procfile",
 		"/home/akash/lwc2/src/lwc2/settings_old.py",
 		"/home/akash/lwc2/src/lwc2/settings/__init__.py",
 		"/home/akash/lwc2/src/.gitignore",
 		"/home/akash/lwc2/src/lwc2/settings.py",
 		"/home/akash/lwc2/src/templates/navbar.html",
-		"/home/akash/lwc2/src/lwc2/settings/base.py",
 		"/home/akash/lwc2/src/lwc2/wsgi.py",
 		"/home/akash/lwc2/src/templates/base.html",
 		"/home/akash/lwc2/src/templates/home.html",
@@ -182,10 +181,6 @@
 		"/home/akash/lwc2/src/templates/400.html",
 		"/home/akash/lwc2/src/lwc2/views.py",
 		"/home/akash/lwc2/src/templates/test.html",
-		"/home/akash/lwc2/src/joins/forms.py",
-		"/home/akash/lwc2/src/joins/models.py",
-		"/home/akash/lwc2/src/lwc2/middleware.py",
-		"/home/akash/lwc2/src/joins/admin.py",
 		"/home/akash/lwc2/src/lwc2/templates/share.html",
 		"/home/akash/lwc2/src/lwc2/templates/home.html",
 		"/home/akash/lwc2/src/lwc2/templates/base.html",
@@ -227,6 +222,13 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Image Title Here",
+			"<h5><strong>Click MAT</strong> karna!! Warna refresh karke band karna padega abhi! :P</h5>",
+			"Click On Image</strong> to open image in popup",
+			"skiferlogo.png",
+			"\"assets/img/portfolio/image.jpg\"",
+			"\"assets/img/portfolio/image2.jpg\"",
+			"\"assets/img/portfolio/image.jpg\"",
 			">\n",
 			"Faltuminds",
 			"Faltu",
@@ -239,6 +241,11 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Baby baby oooh!!",
+			"<h5><strong>Masti</strong> mein daali hai abhi image idhar. Canva se banake jobs ke liye image dalenge abhi shuru mei dhinchak! :P</h5>",
+			"Click MAT</strong> karna!! Warna refresh karke band karna padega abhi! :P",
+			"image.jpg",
+			"\"{%static './img/skiferlogo.png'%}\"",
 			"Skifer"
 		],
 		"reverse": false,
@@ -250,88 +257,61 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lwc2/settings/base.py",
+					"file": "templates/jobs.html",
 					"settings":
 					{
-						"buffer_size": 2644,
+						"buffer_size": 10374,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1861,
-								1861
+								6986,
+								6986
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
+							"syntax": "Packages/HTML/HTML.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1091.0,
+						"translation.y": 2451.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 1,
-					"file": "lwc2/settings/local.py",
+					"file": "static/static_dirs/css/flatty.css",
 					"settings":
 					{
-						"buffer_size": 2615,
+						"buffer_size": 2757,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1911,
-								1911
+								1590,
+								1590
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Python/Python.tmLanguage",
+							"syntax": "Packages/CSS/CSS.tmLanguage",
 							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 919.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "joins/views.py",
-					"settings":
-					{
-						"buffer_size": 3598,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2572,
-								2572
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Python/Python.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 1457.0,
+						"translation.y": 1218.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

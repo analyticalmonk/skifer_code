@@ -1,0 +1,59 @@
+﻿
+
+
+/*=================================
+    GENERAL STYLES
+ ==================================*/
+
+/*body {
+    padding-top: 70px; REQUIRED FOR FIXED NAVBAR
+    font-family: Vani;
+}*/
+
+/*=================================
+    SCROLLING STYLES
+ ==================================*/
+.scrolling-div {
+    background: url(/static/img/skifer_cover.jpg); /* DEFINE IMAGE PATH CAREFULLY*/
+     -webkit-background-size: cover;
+    background-size: cover;
+    -webkit-animation: bgscroll 15s infinite linear; /* 15s - speed of scroll , you can change it */
+    animation: bgscroll 15s infinite linear;
+    -moz-animation: bgscroll 15s infinite linear;
+    -ms-animation: bgscroll 15s infinite linear;
+    color: #fff;
+}
+
+    .scrolling-div .overlay {
+        min-height: 300px;
+        background: rgba(52, 194, 219, 0.8);
+        padding-top: 80px;
+        padding-bottom:80px;
+    }
+
+
+/*Background Scrolling Animation*/
+@-webkit-keyframes bgscroll {
+  from {background-position:0 0;}
+  to {background-position:0 -400px;}
+}
+
+@-moz-keyframes bgscroll {
+  from {background-position:0 0;}
+  to {background-position:0 -400px;}
+}
+
+@-ms-keyframes bgscroll {
+  from {background-position:0 0;}
+  to {background-position:0 -400px;}
+}
+
+@-o-keyframes bgscroll {
+  from {background-position:0 0;}
+  to {background-position:0 -400px;}
+}
+
+@keyframes bgscroll {
+  from {background-position:0 0;}
+  to {background-position:0 -400px;}
+}
