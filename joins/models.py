@@ -2,6 +2,10 @@ from django.db import models
 
 # Create your models here.
 
+# This is the user-model for Skifer. The user is identified by a unique pair of 
+# email id and reference id.
+# The ref id is meant for the user to share the page using his/her id, however that
+# feature is currently not being employed by us.
 class Join(models.Model):
 	email = models.EmailField()
 	friend = models.ForeignKey("self", related_name = "referral",\

@@ -1,0 +1,249 @@
+﻿<!DOCTYPE html>
+{%load staticfiles%}
+<html>
+   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Bootstrap Scrolling Background Image</title>
+
+    <!-- Bootstrap core CSS
+    <link href="http://getbootstrap.com/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="{%static './css/bootstrap.min.css' %}" rel="stylesheet">  
+
+    <!-- Custom styles for the Flatty template -->
+    <link href="{%static './css/flatty.css' %}" rel="stylesheet">  
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+    <!-- Custom styles for scrolling background -->
+    <link href="{%static './css/scrolling-background.css'%}" rel="stylesheet" />
+
+    <!-- STYLE FOR OPENING IMAGE IN POPUP USING FANCYBOX-->
+    <link href="{%static './js/source/jquery.fancybox.css'%}" rel="stylesheet" />
+
+    <!-- Custom styles for job listing -->
+    <link href="{%static './css/job-board-listing.css'%}" rel="stylesheet" />
+
+    <!-- Google Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <!-- <link href='http://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,900' rel='stylesheet' type='text/css'> -->
+    <link href='http://fonts.googleapis.com/css?family=Signika' rel='stylesheet' type='text/css'>
+
+    <style type="text/css">
+        .navbar {
+            min-height: 60px;
+            }
+
+        .navbar-default {
+            background-color: #34c2db;
+            border-color: white;
+        }
+    </style>
+  
+  </head>
+
+  <body>
+
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="./"><img src="{%static './img/skiferlogo.png'%}"/><!-- <b>KIFER</b> --></a>
+        </div>
+        <div class="navbar-collapse collapse">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#job-board" style= "font-family:Signika">Jobs</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+    <!-- Navbar code ends -->
+
+    <!-- Scrolling div code begins -->
+
+    <div class="scrolling-div">
+        <div class="overlay">
+
+        <div class="container" style = "text-align:center">
+           <div class="row">
+            <div class="col-md-12 text-center">
+              <br />
+                <!-- <h2>JOBS</h2> -->
+              <br />
+            </div>
+           </div>
+        </div>
+        
+        </div>
+    </div>
+
+    <!-- SCROLLING DIV CODE END -->
+
+
+    <!-- Job Board starts -->
+    <div class="container" id = "job-board">
+
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                <h2 style = "font-family:Oswald">JOB BOARD</h2>
+            </div>
+
+        </div>
+
+        <!-- FILTER PORTFOLIO START -->
+        <div class="row text-center">
+            <div class="col-md-12">
+                <hr />
+                <div class="caegories">
+                    <a href="#"  data-filter="*" class="active btn btn-info btn-sm">All</a>
+                    <a href="#" data-filter=".html" class="btn btn-danger btn-sm">Technical</a>
+                    <a href="#" data-filter=".css" class="btn btn-warning btn-sm">Marketing</a>
+                    <a href="#" data-filter=".code" class="btn btn-success btn-sm" >Teaching</a>
+                    <a href="#" data-filter=".script" class="btn btn-primary btn-sm" >Miscellaneous</a>
+                    <hr />
+                </div>
+            </div>
+        </div>
+        <div class="row text-center" id="portfolio-div">
+
+            <div class="col-md-4 col-sm-4 html">
+                 <!-- Just pass categories name in to the divs to make it in that category ( for ex: this is of html category) -->
+
+
+                <a class="fancybox-media" title="Image Title Goes Here" href="{%static './img/image.jpg'%}">
+                    <!-- Path for image to open -->
+
+                    <img src="{%static './img/image.jpg'%}" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 css">
+                <a class="fancybox-media" title="Image Title Goes Here" href="{%static './img/image.jpg'%}">
+                    <!-- Path for image to open -->
+
+                    <img src="{%static './img/image.jpg'%}" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 code">
+
+                <a class="fancybox-media" title="Image Title Goes Here" href="{%static './img/image.jpg'%}">
+                    <!-- Path for image to open -->
+
+                    <img src="{%static './img/image.jpg'%}" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+              <div class="col-md-4 col-sm-4 script">
+                <a class="fancybox-media" title="Image Title Goes Here" href="{%static './img/image.jpg'%}">
+                    <!-- Path for image to open -->
+
+                    <img src="{%static './img/image.jpg'%}" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 html script">
+                <a class="fancybox-media" title="Image Title Goes Here" href="{%static './img/image.jpg'%}">
+                    <!-- Path for image to open -->
+
+                    <img src="{%static './img/image.jpg'%}" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 css code">
+
+                <a class="fancybox-media" title="Image Title Goes Here" href="{%static './img/image.jpg'%}">
+                    <!-- Path for image to open -->
+
+                    <img src="{%static './img/image.jpg'%}" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+        </div>
+         <!-- FILTER PORTFOLIO END -->
+
+         <!-- Job board ends -->
+
+    <hr>
+    
+    <!-- Information about Skifer - Social pages, etc. -->
+    <div class="container">
+    <div class = "col-md-4">
+            <h3 style = "font-family: Oswald">Quick Links</h3>
+            <ul style = "font-family: Oswald">
+              <li><a href="/#Details">About</a></li>
+              <li><a href="/legal">Legal Disclaimer</a></li>
+            </ul>
+        </div>
+
+        <div class = "col-md-4 pull-right" style = "text-align: right">
+              <!-- Facebook -->
+              <a href="https://www.facebook.com/Skifer.in"><i class="fa fa-facebook-square fa-2x" style = "color:#3A5795"></i></a>
+              <!-- Twitter -->
+              <a href=""><i class="fa fa-twitter-square fa-2x" style = "color:#5EA9DD"></i></a>
+              <!-- Google Plus -->
+              <a href=""><i class="fa fa-google-plus-square fa-2x" style = "color:#DD4B39"></i></a>
+              <!-- Linkedin -->
+              <!-- <i class="fa fa-linkedin-square fa-2x" style = "color:#0177B5"></i> -->
+              <!-- <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more &raquo;</a></p> -->
+           </div>
+    </div>
+    <!-- Information div ends -->
+
+    <!-- Footer -->
+    <div class="container">
+        <hr>
+        <p style = "font-family:Amaranth" class = "centered"><i class="fa fa-copyright"></i><!-- &copy; --> Skifer 2015</p>
+    </div><!-- /container -->
+     
+    
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+
+    <!--<script src="http://getbootstrap.com/dist/js/bootstrap.min.js"></script>-->
+    <script src="{%static './js/bootstrap.min.js' %}"></script>
+
+    <!--  FANCYBOX PLUGIN -->
+    <script src="{%static './js/jquery.fancybox.js'%}"></script>
+    <!-- ISOTOPE SCRIPTS -->
+    <script src="{%static './js/jquery.isotope.js'%}"></script>
+    <!-- CUSTOM SCRIPTS REQIRED-->
+    <script src="{%static './js/job-board.js'%}"></script>
+
+    <!-- Scripts end -->
+ 
+  </body>
+
+</html>

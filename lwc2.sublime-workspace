@@ -123,7 +123,7 @@
 			"file": "joins/views.py",
 			"settings":
 			{
-				"buffer_size": 3613,
+				"buffer_size": 3598,
 				"line_ending": "Unix"
 			}
 		}
@@ -314,15 +314,15 @@
 					"file": "joins/views.py",
 					"settings":
 					{
-						"buffer_size": 3613,
+						"buffer_size": 3598,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3143,
-								3143
+								2572,
+								2572
 							]
 						],
 						"settings":
@@ -330,8 +330,8 @@
 							"syntax": "Packages/Python/Python.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 2030.0,
-						"translation.y": 1343.0,
+						"translation.x": 0.0,
+						"translation.y": 1457.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

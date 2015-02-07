@@ -1,0 +1,153 @@
+﻿<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <!--[if IE]>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <![endif]-->
+    <title>Bootstrap Filter Portfolio</title>
+    <!-- BOOTSTRAP STYLE SHEET -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet" />
+    <!-- STYLE FOR OPENING IMAGE IN POPUP USING FANCYBOX-->
+    <link href="assets/js/source/jquery.fancybox.css" rel="stylesheet" />
+    <!-- CUSTOM STYLE -->
+    <link href="assets/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="navbar navbar-default navbar-fixed-top">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Design Bootstrap</a>
+            </div>
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav ">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">SERVICES</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <!-- NAVBAR CODE END -->
+    <div class="container">
+        <div class="row text-center">
+            <div class="col-md-8 col-md-offset-2 col-sm-8 col-sm-offset-2">
+                <h2>Bootstrap Filter Portfolio</h2>
+                <h5>This example using <strong>FancyBox & Isotope</strong> Plugins </h5>
+                <h5>Crafted by  <a href="http://www.designbootstrap.com/">DesignBootstrap.com</a> </h5>
+            </div>
+
+        </div>
+        <!-- FILTER PORTFOLIO START -->
+        <div class="row text-center" >
+            <div class="col-md-12">
+                <hr />
+                <div class="caegories">
+                            <a href="#"  data-filter="*" class="active btn btn-info btn-sm">All</a>
+                            <a href="#" data-filter=".html" class="btn btn-danger btn-sm">HTML</a>
+                            <a href="#" data-filter=".css" class="btn btn-warning btn-sm">CSS</a>
+                            <a href="#" data-filter=".code" class="btn btn-success btn-sm" >CODE</a>
+                            <a href="#" data-filter=".script" class="btn btn-primary btn-sm" >SCRIPT</a>
+                    <hr />
+                </div>
+            </div>
+        </div>
+        <div class="row text-center" id="portfolio-div">
+
+            <div class="col-md-4 col-sm-4 html">
+                 <!-- Just pass categories name in to the divs to make it in that category ( for ex: this is of html category) -->
+
+
+                <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/image.jpg">
+                    <!-- Path for image to open -->
+
+                    <img src="assets/img/portfolio/image.jpg" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 css">
+                <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/image2.jpg">
+                    <!-- Path for image to open -->
+
+                    <img src="assets/img/portfolio/image2.jpg" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 code">
+
+                <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/image.jpg">
+                    <!-- Path for image to open -->
+
+                    <img src="assets/img/portfolio/image.jpg" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+              <div class="col-md-4 col-sm-4 script">
+                <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/image.jpg">
+                    <!-- Path for image to open -->
+
+                    <img src="assets/img/portfolio/image.jpg" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 html script">
+                <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/image2.jpg">
+                    <!-- Path for image to open -->
+
+                    <img src="assets/img/portfolio/image2.jpg" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+            <div class="col-md-4 col-sm-4 css code">
+
+                <a class="fancybox-media" title="Image Title Goes Here" href="assets/img/portfolio/image.jpg">
+                    <!-- Path for image to open -->
+
+                    <img src="assets/img/portfolio/image.jpg" class="img-responsive " alt="" />
+                    <!-- Path for image to display -->
+                </a>
+
+                <h3>Image Title Here</h3>
+                <h5><strong>Click On Image</strong> to open image in popup</h5>
+            </div>
+        </div>
+         <!-- FILTER PORTFOLIO END -->       
+    </div>
+    <!-- CONATINER END -->
+    <!-- REQUIRED SCRIPTS FILES -->
+    <!-- CORE JQUERY SCRIPTS -->
+    <script src="assets/js/jquery-1.11.1.js"></script>
+    <!-- REQUIRED BOOTSTRAP SCRIPTS -->
+    <script src="assets/js/bootstrap.js"></script>
+    <!--  FANCYBOX PLUGIN -->
+    <script src="assets/js/source/jquery.fancybox.js"></script>
+    <!-- ISOTOPE SCRIPTS -->
+    <script src="assets/js/jquery.isotope.js"></script>
+    <!-- CUSTOM SCRIPTS REQIRED-->
+    <script src="assets/js/custom.js"></script>
+</body>
+
+</html>

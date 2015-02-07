@@ -1,14 +1,22 @@
 from django.conf import settings
 
+# render takes care of display of the templates
+# HttpResponseRedirect and Http404 are handy for error-handling
 from django.shortcuts import render, HttpResponseRedirect, Http404
 
+# We gotta import the models and model-form we have created for use below.
 from .models import Join
 from .forms import JoinForm
 # from .forms import EmailForm
 
+# I love this part!! F U Mailchimp.
+# We use Django's in-built mail functionality to send a welcome mail to
+# every new user.
 from django.core.mail import EmailMessage
 from django.core.mail import EmailMultiAlternatives
 
+# Module for getting the ip from meta-information provided with the user's
+# request
 def get_ip(request):
 	x_forward = request.META.get("HTTP_X_FORWARDED_FOR")
 	try:
@@ -21,9 +29,8 @@ def get_ip(request):
 
 	return ip
 
-# module for helping us generate a unique id for user
+# module for helping us generate a unique id for user.
 import uuid
-
 def create_id():
 	ref_id = str(uuid.uuid4())[:11].replace('-', '').lower()
 	try:
@@ -32,6 +39,7 @@ def create_id():
 	except:
 		return ref_id
 
+# View for displaying the legal-disclaimer page.
 def legal(request):
 	try:
 		context = {}
@@ -40,6 +48,16 @@ def legal(request):
 	except:
 		raise Http404
 
+# View for displaying the Job-board page.
+def jobs(request):
+	try:
+		context = {}
+		template = "jobs.html"
+		return render(request, template, context)
+	except:
+		raise Http404
+
+# View for displaying the logo design competition page.
 def logodesign(request):
 	try:
 		context = {}
@@ -48,6 +66,7 @@ def logodesign(request):
 	except:
 		raise Http404
 
+# View for displaying the Share page to newly registered user.
 def share(request, ref_id):
 	# For debugging purposes
 	# print ref_id
@@ -63,7 +82,7 @@ def share(request, ref_id):
 	except:
 		raise Http404
 
-
+# View for Skifer's landing page
 def home(request):
 	try:
 		brought_by_id = request.session['brought_by_id']
@@ -99,7 +118,7 @@ def home(request):
 			# email = EmailMessage('Subject', 'Body', to=["akashtndn.acm@gmail.com"])
 			# email.send()
 
-			## Email using EmailMultiAlternatives (text/html)
+			## Email using EmailMessage and EmailMultiAlternatives (text/html)
 			subject, from_email, to = 'Welcome to Skifer', 'Skifer.India@gmail.com', str(email)
 			text_content = 'Thanks for dropping by and registering. We are currently in a building phase, and are trying our best to make Skifer an awesome experience for you. We will make sure that you are the first to know when we launch. Again, we appreciate your show of faith in us. Regards, Team Skifer'
 			html_content = '<p>Thanks for dropping by and registering. We are currently in a building phase, and are trying our best to make Skifer an awesome experience for you. <br> We will make sure that you are the first to know when we launch. <br> </p> <p>Again, we appreciate your show of faith in us. <br><br> Regards, <br><strong>Team Skifer</strong></p>'
