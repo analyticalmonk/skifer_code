@@ -107,7 +107,7 @@
 			"file": "templates/jobs.html",
 			"settings":
 			{
-				"buffer_size": 10374,
+				"buffer_size": 8943,
 				"line_ending": "Windows"
 			}
 		},
@@ -222,6 +222,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"Image Title Goes Here",
+			"<h5><strong>Masti</strong> mein daali hai abhi image idhar. Canva se banake jobs ke liye image dalenge abhi shuru mei dhinchak! :P</h5>",
+			"Baby baby oooh!!",
 			"Image Title Here",
 			"<h5><strong>Click MAT</strong> karna!! Warna refresh karke band karna padega abhi! :P</h5>",
 			"Click On Image</strong> to open image in popup",
@@ -241,6 +244,9 @@
 		"regex": false,
 		"replace_history":
 		[
+			"Skifer Jobs",
+			"<h5></h5>",
+			"Vacancies:5",
 			"Baby baby oooh!!",
 			"<h5><strong>Masti</strong> mein daali hai abhi image idhar. Canva se banake jobs ke liye image dalenge abhi shuru mei dhinchak! :P</h5>",
 			"Click MAT</strong> karna!! Warna refresh karke band karna padega abhi! :P",
@@ -265,15 +271,27 @@
 					"file": "templates/jobs.html",
 					"settings":
 					{
-						"buffer_size": 10374,
+						"buffer_size": 8943,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6986,
-								6986
+								4794,
+								4794
+							],
+							[
+								5259,
+								5259
+							],
+							[
+								5725,
+								5725
+							],
+							[
+								6191,
+								6191
 							]
 						],
 						"settings":
@@ -283,7 +301,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2451.0,
+						"translation.y": 1858.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
