@@ -107,7 +107,7 @@
 			"file": "templates/jobs.html",
 			"settings":
 			{
-				"buffer_size": 8943,
+				"buffer_size": 9032,
 				"line_ending": "Windows"
 			}
 		},
@@ -116,6 +116,22 @@
 			"settings":
 			{
 				"buffer_size": 2757,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/flatty_landing.html",
+			"settings":
+			{
+				"buffer_size": 13898,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/share.html",
+			"settings":
+			{
+				"buffer_size": 9399,
 				"line_ending": "Unix"
 			}
 		}
@@ -222,6 +238,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"About",
 			"Image Title Goes Here",
 			"<h5><strong>Masti</strong> mein daali hai abhi image idhar. Canva se banake jobs ke liye image dalenge abhi shuru mei dhinchak! :P</h5>",
 			"Baby baby oooh!!",
@@ -271,27 +288,15 @@
 					"file": "templates/jobs.html",
 					"settings":
 					{
-						"buffer_size": 8943,
+						"buffer_size": 9032,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4794,
-								4794
-							],
-							[
-								5259,
-								5259
-							],
-							[
-								5725,
-								5725
-							],
-							[
-								6191,
-								6191
+								2185,
+								2185
 							]
 						],
 						"settings":
@@ -301,7 +306,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1858.0,
+						"translation.y": 555.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -318,8 +323,8 @@
 						"selection":
 						[
 							[
-								1590,
-								1590
+								487,
+								487
 							]
 						],
 						"settings":
@@ -329,7 +334,61 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1218.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "templates/flatty_landing.html",
+					"settings":
+					{
+						"buffer_size": 13898,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2276,
+								2276
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 416.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "templates/share.html",
+					"settings":
+					{
+						"buffer_size": 9399,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2569,
+								2569
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 807.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
