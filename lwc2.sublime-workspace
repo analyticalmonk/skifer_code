@@ -107,7 +107,7 @@
 			"file": "templates/jobs.html",
 			"settings":
 			{
-				"buffer_size": 9147,
+				"buffer_size": 9628,
 				"line_ending": "Windows"
 			}
 		},
@@ -288,15 +288,15 @@
 					"file": "templates/jobs.html",
 					"settings":
 					{
-						"buffer_size": 9147,
+						"buffer_size": 9628,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3914,
-								3914
+								7157,
+								7157
 							]
 						],
 						"settings":
@@ -306,7 +306,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 1457.0,
+						"translation.y": 2637.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
