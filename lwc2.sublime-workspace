@@ -107,7 +107,7 @@
 			"file": "templates/jobs.html",
 			"settings":
 			{
-				"buffer_size": 9628,
+				"buffer_size": 10239,
 				"line_ending": "Windows"
 			}
 		},
@@ -123,7 +123,7 @@
 			"file": "templates/flatty_landing.html",
 			"settings":
 			{
-				"buffer_size": 13898,
+				"buffer_size": 14479,
 				"line_ending": "Unix"
 			}
 		},
@@ -131,7 +131,23 @@
 			"file": "templates/share.html",
 			"settings":
 			{
-				"buffer_size": 9399,
+				"buffer_size": 10009,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/legal.html",
+			"settings":
+			{
+				"buffer_size": 6913,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "templates/logodesign.html",
+			"settings":
+			{
+				"buffer_size": 6074,
 				"line_ending": "Unix"
 			}
 		}
@@ -280,7 +296,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 4,
 			"sheets":
 			[
 				{
@@ -288,15 +304,15 @@
 					"file": "templates/jobs.html",
 					"settings":
 					{
-						"buffer_size": 9628,
+						"buffer_size": 10239,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								7157,
-								7157
+								2019,
+								2019
 							]
 						],
 						"settings":
@@ -306,7 +322,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 2637.0,
+						"translation.y": 459.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -344,15 +360,15 @@
 					"file": "templates/flatty_landing.html",
 					"settings":
 					{
-						"buffer_size": 13898,
+						"buffer_size": 14479,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2276,
-								2276
+								1616,
+								1616
 							]
 						],
 						"settings":
@@ -360,7 +376,7 @@
 							"syntax": "Packages/HTML/HTML.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 416.0,
+						"translation.y": 336.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -370,15 +386,15 @@
 					"file": "templates/share.html",
 					"settings":
 					{
-						"buffer_size": 9399,
+						"buffer_size": 10009,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2569,
-								2569
+								1813,
+								1813
 							]
 						],
 						"settings":
@@ -388,7 +404,63 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 807.0,
+						"translation.y": 717.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "templates/legal.html",
+					"settings":
+					{
+						"buffer_size": 6913,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2784,
+								2784
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 819.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "templates/logodesign.html",
+					"settings":
+					{
+						"buffer_size": 6074,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2437,
+								2437
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 502.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"

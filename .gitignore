@@ -1,6 +1,9 @@
 .DS_Store
 db.sqlite3
 lwc2/settings/local.py
+templates/base.html
+templates/widgets.html
+templates/job_board.html
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
