@@ -104,42 +104,10 @@
 	"buffers":
 	[
 		{
-			"file": "templates/flatty_landing.html",
-			"settings":
-			{
-				"buffer_size": 15066,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/legal.html",
-			"settings":
-			{
-				"buffer_size": 7780,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/logodesign.html",
-			"settings":
-			{
-				"buffer_size": 6659,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "templates/share.html",
-			"settings":
-			{
-				"buffer_size": 10605,
-				"line_ending": "Unix"
-			}
-		},
-		{
 			"file": "templates/jobs.html",
 			"settings":
 			{
-				"buffer_size": 10902,
+				"buffer_size": 10722,
 				"line_ending": "Windows"
 			}
 		}
@@ -171,6 +139,7 @@
 		"/home/akash/lwc2/src/templates/share.html",
 		"/home/akash/lwc2/src/templates/logodesign.html",
 		"/home/akash/lwc2/src/templates/legal.html",
+		"/home/akash/lwc2/src/templates/flatty_landing.html",
 		"/home/akash/lwc2/src/templates/jobs.html",
 		"/home/akash/lwc2/src/.gitignore",
 		"/home/akash/lwc2/src/static/static_dirs/css/flatty.css",
@@ -186,7 +155,6 @@
 		"/home/akash/lwc2/src/joins/admin.py",
 		"/home/akash/lwc2/src/lwc2/middleware.py",
 		"/home/akash/lwc2/src/joins/models.py",
-		"/home/akash/lwc2/src/templates/flatty_landing.html",
 		"/home/akash/lwc2/src/lwc2/settings/production.py",
 		"/home/akash/lwc2/src/Procfile",
 		"/home/akash/lwc2/src/lwc2/settings_old.py",
@@ -294,128 +262,18 @@
 			[
 				{
 					"buffer": 0,
-					"file": "templates/flatty_landing.html",
-					"settings":
-					{
-						"buffer_size": 15066,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								163,
-								163
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "templates/legal.html",
-					"settings":
-					{
-						"buffer_size": 7780,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								614,
-								614
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "templates/logodesign.html",
-					"settings":
-					{
-						"buffer_size": 6659,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								348,
-								348
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "templates/share.html",
-					"settings":
-					{
-						"buffer_size": 10605,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								860,
-								860
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.tmLanguage",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 4,
 					"file": "templates/jobs.html",
 					"settings":
 					{
-						"buffer_size": 10902,
+						"buffer_size": 10722,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								586,
-								586
+								5205,
+								5205
 							]
 						],
 						"settings":
@@ -425,7 +283,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1946.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
